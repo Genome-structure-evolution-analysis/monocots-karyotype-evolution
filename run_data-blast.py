@@ -2,7 +2,7 @@
 # @Author: wjq
 # @Date:   2023-08-04 00:52:10
 # @Last Modified by:   wjq
-# @Last Modified time: 2023-08-10 15:22:57
+# @Last Modified time: 2023-08-12 17:05:19
 
 # names = ['Sb_Os', 'Sb_Tel', 'Ac_Sb', 'Ac_Os', 'Sp_Ac', 'Sp_El', 'El_Ac', 'El_Os', 'Ata_Sp', 'Ata_El', 'Amtr_Ata', 'Amtr_Sp']
 names = ['Sb_Sb', 'Tel_Tel', 'Ac_Ac', 'Os_Os', 'Sp_Sp', 'El_El', 'Ata_Ata', 'Amtr_Amtr', 'APK_APK', 'Bdi_Bdi']
@@ -43,6 +43,7 @@ save_ks_file = {na}.ks.txt
     # sf1.write(rcdata1)
     # sf2 = open(f'run_ks-{na}.conf', 'w')
     # sf2.write(rkdata2)
+    sf.close()
 
 
 import os
